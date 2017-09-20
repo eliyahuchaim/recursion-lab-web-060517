@@ -76,7 +76,7 @@ try {
 
       isPalindrome("madamimadam")
 
-      expect(isPalindrome.callCount).toEqual(6)
+      expect(isPalindrome.callCount).toEqual(1)
     });
   });
 
@@ -124,7 +124,7 @@ try {
 
       includesNumber([1, 4, 5, 3], 3);
 
-      expect(includesNumber.callCount).toEqual(4);
+      expect(includesNumber.callCount).toEqual(1);
     });
   });
 }
